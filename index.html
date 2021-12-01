@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<!----------------------------------
+		TITLE OF WEBSITE
+	------------------------------------->	
+	<head>
+		<title>My Personal Website!</title>
+		<link rel="stylesheet" href="Home.css">
+	</head>
+
+	<!----------------------------
+		BODY OF WEBSITE
+	------------------------------>
+	<body>
+	<!-----------------------------
+		LIST OF SECTIONS ON WEBSITE
+	------------------------------->
+	<ul>
+		<li><a href = "Home.html" target = "_blank">Home</a></li>
+		<li><a href = "#education">Education</a></li>
+		<li><a href = "#skills">Skills</a></li>
+		<!--<li><a href = "Projects.html" target = "_blank">Projects</a></li>-->
+		<!--<li><a href = "Hobbies.html" target = "_blank">Hobbies</a></li>-->
+		<li><a href = "#contacts">Contacts</a></li>
+	</ul>	
+	
+	<!-----------------------------------
+		HOME SECTION
+	------------------------------------>
+	<div class="bg"></div>
+	<!--Welcome heading-->
+	<h1>Welcome to my personal website!</h1>
+	<!--Brief introduction-->
+	<div class = "introduction">
+	<p>Hello, my name is</p>
+	<p style ="color: #00ccff;">[Full_name]</p>
+	<p>I am an 18 year-old electrical/computer science student and this is my personal website!</p>
+	</div>
+
+	<!--<hr class="new_line">-->
+
+	<!---------------------------------
+		EDUCATION
+	---------------------------------->
+	<!--Heading-->
+	<div class="section-heading"><h2 id ="education" style="position: absolute; left:10px; top: 760px;">Education</h2></div>
+
+	<!--UNI-->
+	<img src="images/vgu_logo_3.png" alt ="Official logo of the Vietnamese-German University" title="Official logo of the Vietnamese-German University" width ="450" height ="180" style="position: absolute; left: 10px; top: 950px; max-width: 70%;">
+	<div class="education-uni">
+		<p>From 2020 to present, I am enrolled in the Vietnamese-German University as an Electrical and Computer Engineering student.</p></div>
+	<div class="vgu-intro">
+		<p>(The Vietnamese-German University, abbr. VGU, was founded officially in March 2008 under the form of a partnership between Vietnam and Germany)</p>
+	</div>	
+
+	<!--HIGH SCHOOL-->
+	<div class ="high-school"><img src="images/lhp_logo.png" alt ="Official logo of Le Hong Phong High School for the Gifted" title ="Official logo of Le Hong Phong High School for the Gifted" width = "200" height ="200" style="margin:0px 50px; position: absolute; top: 1280px"></div>
+	<div class="education-hs">
+		<p>From 2017 to 2020, I went to Le Hong Phong High School for the Gifted.</p>
+	</div>
+
+
+	<!---------------------------
+		SKILLS
+	---------------------------->
+	<!--Heading-->
+	<div class="section-heading"><h2 id ="skills" style="position: absolute; left:10px; top: 1550px;">Skills</h2></div>
+	
+
+	<!--Technical skills-->
+	<div class="skills"><h3 style="position: absolute; left: 10px; top: 1650px;">Programming Skills</h3></div>
+	<!--Table-->
+	<table style="position: absolute; left: 10px; top: 1730px;">
+		<tr>
+			<th><p style="font-family: Century Gothic; font-size: 20px;">Programming languages</p></th>
+			<th><p style="font-family: Century Gothic; font-size: 20px; position: absolute; left: 500px; top: 10px;">Level</p></th>
+			<th><p style="font-family: Century Gothic; font-size: 20px;">Related projects</p></th>
+		</tr>
+		<tr>
+			<td><img id="python-lg" src="images/python_logo.png" alt = "Python's official logo "width="100" height="100"></td>
+			<td>
+				<p id="python-data">Intermediate</p>
+			</td>
+			<td>
+			<div class="skill-link">
+				<p>Project 1</p>
+				<p>Project 2</p>
+				<p>Project 3</p>
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="images/c_logo_2.png" alt="C's official logo" width="80" height="80"></td>
+			<td><p id="c-data">Intermediate</p></td>
+			<td>
+			<div class="skill-link">
+				<p>Project 1</p>
+				<p>Project 2</p>
+				<p>Project 3</p>
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="images/c++_logo.png" alt="C++'s official logo" width="80" height="80"></td>
+			<td><p id="cpp-data">Intermediate</p></td>
+			<td>
+			<div class="skill-link">
+				<p>Project 1</p>
+				<p>Project 2</p>
+				<p>Project 3</p>
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="images/arduino_logo_2.png" alt="Arduino's offiial logo" width="80" height="80"></td>
+			<td><p id="arduino-data">Intermediate</p></td>
+			<td>
+			<div class="skill-link">
+				<p>Project 1</p>
+				<p>Project 2</p>
+				<p>Project 3</p>
+			<div>
+			</td>
+		</tr>
+	</table>
+
+	<!--Linguistic skills-->
+	<div class="skills"><h3 style="position: absolute; left: 10px; top: 2350px;">Linguistic Skills</h3></div>
+	<!--Table-->
+	<table style="position: absolute; left: 10px; top: 2450px";>
+		<tr>
+			<th style="font-size: 20px;"><p style="position: absolute; left: 10px; top: -40px">Languages</p></th>
+			<th style="font-size: 20px;"><p style="position: absolute; left: 500px; top: -40px">Level</p></th>
+		</tr>
+		<tr>
+			<td><img src="images/american_flag.png" alt="Flag of America" width="150" height="100"></td>
+			<td><p id="english-data">IELTS 6.0</p></td>
+		</tr>
+		<tr>
+			<td><img src="images/germany_flag.png" alt="Flag of Germany" width="150" height="100"></td>
+			<td><p id="german-data">A1 Level</p></td>
+		</tr>
+		<tr>
+			<td><img src="images/vietnam_flag.png" alt="Flag of Vietnam" width="150" height="100"></td>
+			<td><p id="vietnamese-data">Mother tongue</p></td>
+		</tr>
+	</table>
+
+	<!----------------------
+		CONTACTS
+	---------------------->
+	<div class="section-heading"><h2 id ="contacts" style="position: absolute; left:10px; top: 2850px;">Contacts</h2></div>
+
+	<a href="https://vgu.edu.vn/" target="_blank"><img src="images/facebook_logo_2.png" alt="Facebook's official logo" class="logo fb_logo"></a>
+	<a href="https://vgu.edu.vn/" target="_blank"><img src="images/twitter_logo_2.jpg" alt="Twitter's official logo" class="logo twitter_logo"></a>
+	<a href="https://vgu.edu.vn/" target="_blank"><img src="images/linkedin_logo.png" alt ="LinkedIn's official logo" class="logo linkedin_logo"></a>
+
+	<!--------------------
+		FOOTER
+	--------------------->
+	<div class="footer">
+		<p style="font-family: Century Gothic;">This is [Full_name]'s personal website. Everything is created using HTML and CSS.</p>
+	</div>
+
+
+</html>
