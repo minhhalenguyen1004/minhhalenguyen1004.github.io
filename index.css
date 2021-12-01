@@ -1,0 +1,258 @@
+body{
+  width: 100%;
+  margin: 0 auto;
+}
+/***********************
+NAVIGATION BAR
+***********************/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left; /*can be left, right, center*/
+}
+
+li a {
+  display: block; /*can be none, inline, block, inline-block*/
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+  font-family: Century Gothic;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+/*to let user knows which page they are on*/
+.active {       
+  background-color: #04AA6D;
+}
+/*************************
+      HEADER IMAGE
+**************************/
+
+body, html{
+  height: 100%;
+}
+
+.bg{
+  background-image: url("images/background_3.png");
+  height: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/************************
+      H1 DECORATIONS
+************************/
+
+h1{
+  font-family: Century Gothic;
+  text-align: center;
+  line-height: 3em;
+}
+
+/************************
+    INTRODUCTION
+*************************/
+
+.introduction{
+  font-family: Century Gothic;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  line-height: 0.5em;
+}
+
+
+/*************************
+    NEW LINE
+**************************/
+/*hr.new_line{
+  border-top: 3px dotted #333;
+  border-width: 2px;
+}*/
+/**************************
+    SECTION HEADING
+****************************/
+
+.section-heading{
+   font-family: Century Gothic;
+   font-size: 30px;
+   test-align: center;
+   font-weight: bold;
+   /*positon: absolute;
+   left: 500px;
+   top: 200px;*/
+}
+
+/*****************************
+    EDUCATION
+******************************/
+
+
+.education-uni{
+  font-family: Century Gothic;
+  font-size: 25px;
+  text-align: left;
+  font-weight: bold;
+  position:absolute; 
+  left:500px; 
+  top:980px
+}
+
+.vgu-intro{
+  font-family: Century Gothic;
+  font-size: 20px;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 500px;
+  top: 1050px;
+}
+
+.education-hs{
+  font-family: Century Gothic;
+  font-size: 25px;
+  text-align: left;
+  font-weight: bold;
+  position:absolute; 
+  left:500px; 
+  top:1330px;
+}
+
+/***********************
+    SKILLS
+  *********************/
+.skills{
+  font-family: Century Gothic;
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+table {
+  font-family: Century Gothic, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  /*border: 1px solid #dddddd;*/
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+/*tr:nth-child(even) {
+  background-color: #dddddd;*/
+
+.skill-link{
+  text-decoration: underline;
+  color: blue;
+}  
+
+.footer{
+  position: absolute;
+  top: 3050px;
+  width: 100%;
+  height: 100px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+.logo{
+  width: 50px;
+  height:50px;
+}
+
+.fb_logo{
+  position: absolute;
+  left: 10px;
+  top: 2950px;
+}
+
+.twitter_logo{
+  position: absolute;
+  left: 10px;
+  top: 2950px;
+  float: right;
+  margin-left: 80px;
+}
+
+.linkedin_logo{
+  position: absolute;
+  left: 10px;
+  top: 2950px;
+  float: right;
+  margin-left: 160px;
+}
+
+/*.lang-data{
+  float: right;
+  margin-left: 10px;
+}*/
+
+#python-data{
+  position: absolute;
+  left: 500px;
+  top: 110px;
+  font-size: 20px;
+}
+
+#c-data{
+  position: absolute;
+  left: 500px;
+  top: 250px;
+  font-size: 20px;
+}
+
+#cpp-data{
+  position: absolute;
+  left: 500px;
+  top: 390px;
+  font-size: 20px;
+}
+
+#arduino-data{
+  position: absolute;
+  left: 500px;
+  top: 530px;
+  font-size: 20px;
+
+}
+
+#english-data{
+  position: absolute;
+  left: 500px;
+  top: 60px;
+  font-size: 20px;
+}
+
+#german-data{
+  position: absolute;
+  left: 500px;
+  top: 175px;
+  float: center;
+  font-size: 20px;
+}
+
+#vietnamese-data{
+  position: absolute;
+  left: 500px;
+  top: 290px;
+  float: center;
+  font-size: 20px;
+}
+
