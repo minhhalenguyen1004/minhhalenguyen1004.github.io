@@ -45,7 +45,7 @@ body, html{
 }
 
 .bg{
-  background-image: url("images/background_3.png");
+  background-image: url("background_3.png");
   height: 50%;
   background-repeat: no-repeat;
   background-position: center;
